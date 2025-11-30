@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Búsqueda Anticipada - Tienda DAI</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@unocss/reset/tailwind.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@unocss/runtime"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <script defer src="/static/js/busqueda-anticipada.js"></script>
+</head>
+
+<body class="bg-gray-100 min-h-screen font-sans text-gray-700">
+
+    <header class="w-full bg-white border-b border-gray-100 py-3 px-6 shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto flex items-center justify-between gap-8">
+            <div class="flex items-center gap-6 shrink-0">
+                <a href="/" class="text-2xl font-medium text-gray-600 hover:text-green-600 transition-colors no-underline">Tienda DAI</a>
+                <span class="text-sm text-gray-500 font-normal hidden sm:block">Búsqueda anticipada</span>
+            </div>
+            <div class="flex-grow max-w-2xl relative">
+                <div class="relative group">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <i class="bi bi-search text-gray-400 text-lg"></i>
+                    </div>
+                    <input type="text" id="input-busqueda" class="block w-full pl-12 pr-10 py-2.5 bg-gray-50 border-2 border-green-500 rounded-full text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-0 focus:bg-white transition-all" placeholder="Buscar productos..."
+                        autocomplete="off">
+                    <div id="spinner" class="absolute inset-y-0 right-0 pr-4 flex items-center hidden">
+                        <svg class="animate-spin h-5 w-5 text-green-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                            <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
+                            <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="flex items-center gap-6 shrink-0 text-sm font-medium text-gray-600">
+                <a href="#" class="hover:text-green-600 transition-colors hidden md:block">Categorías</a>
+                <a href="/usuarios/login" class="flex items-center gap-1 hover:text-green-600 transition-colors">Identifícate</a>
+                <a href="/ver_carrito" class="hover:text-green-600 transition-colors"><i class="bi bi-cart3 text-xl"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto pt-10 px-4 pb-20">
+
+        <div id="mensaje-inicial" class="text-center mt-10 transition-opacity duration-300">
+            <h2 class="text-2xl font-medium text-gray-800 mb-2">Resultados de búsqueda</h2>
+            <p class="text-gray-500" id="contador-resultados">Escribe para empezar a buscar...</p>
+        </div>
+
+        <div id="resultados-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-8">
+        </div>
+
+    </main>
+
+    <template id="plantilla-producto">
+        <div class="bg-white rounded-lg shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col h-full">
+            <div class="relative pt-[100%] bg-white"> <img class="card-img absolute top-0 left-0 w-full h-full object-contain p-4" src="" alt="">
+            </div>
+            
+            <div class="p-4 flex-grow flex flex-col justify-between">
+                <div>
+                    <h3 class="card-title text-sm font-semibold text-gray-800 line-clamp-2 mb-1"></h3>
+                    <p class="card-subtitle text-xs text-gray-500 mb-3"></p>
+                </div>
+                
+                <div>
+                    <div class="flex items-end gap-2 mb-3">
+                        <span class="card-price text-xl font-bold text-gray-900"></span>
+                        <span class="text-xs text-gray-500 mb-1">/ud.</span>
+                    </div>
+                    
+                    <a href="#" class="card-btn w-full block text-center rounded-full border border-green-600 text-green-600 font-medium text-sm py-1.5 hover:bg-green-50 transition-colors">
+                        Añadir al carro
+                    </a>
+                </div>
+            </div>
+        </div>
+    </template>
+
+</body>
+
+</html>

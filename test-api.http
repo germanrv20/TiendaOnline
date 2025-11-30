@@ -1,0 +1,66 @@
+// test-api.http
+// (Puedes ejecutar estas peticiones usando la extensión "REST Client" en VSCode)
+
+//  ENDPOINTS PÚBLICOS (GET) 
+
+
+### Obtener TODOS los productos
+GET http://localhost:8000/api/productos
+Accept: application/json
+
+### Obtener UN producto por ID
+# (Sustituye este ID por uno real de tu base de datos)
+GET http://localhost:8000/api/productos/68daf02b7a20505b0f7c5888
+Accept: application/json
+
+### Obtener un producto que NO existe (devolverá 404)
+GET http://localhost:8000/api/productos/1234567890abcdef12345678
+Accept: application/json
+
+
+// ENDPOINTS PRIVADOS (ADMIN) 
+
+
+# NOTA: Para que estas peticiones funcionen, debes:
+# 1. Iniciar sesión como ADMIN en la web (http://localhost:8000/usuarios/login).
+# 2. Abrir las herramientas de desarrollador del navegador (F12).
+# 3. Ir a la pestaña "Aplicación" (o "Almacenamiento").
+# 4. Buscar tus Cookies, copiar el VALOR de la cookie "access_token".
+# 5. Pegar ese valor abajo donde dice "TU_TOKEN_COPIADO_DEL_NAVEGADOR".
+
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c3VhcmlvIjoiR2VybWFuQWQiLCJhZG1pbiI6dHJ1ZSwiaWF0IjoxNzYzMzIwMzE1fQ.u8yMxYUf_lv8H1W-caOFEVGsRYT0OBZVgBRjFqah0o0
+
+### (FALLARÁ) Intentar borrar un producto sin ser admin (sin cookie)
+DELETE http://localhost:8000/api/productos/68daf02b7a20505b0f7c585f
+Accept: application/json
+
+### (OK) Eliminar un producto (CON cookie de admin)
+DELETE http://localhost:8000/api/productos/68daf02b7a20505b0f7c585f
+Accept: application/json
+Cookie: access_token={{token}}
+
+### Añadir un nuevo producto (CON cookie de admin)
+POST http://localhost:8000/api/productos
+Content-Type: application/json
+Cookie: access_token={{token}}
+
+{
+    "categoría": "Bebidas",
+    "subcategoria": "Refrescos",
+    "url_img": "https://url.de.imagen/nueva.jpg",
+    "texto_1": "Nuevo Refresco de Prueba",
+    "texto_2": "Botella 1L",
+    "texto_precio": "1.50 € /ud.",
+    "precio_euros": 1.50
+}
+
+### Cambiar el precio de un producto (CON cookie de admin)
+# (Sustituye este ID por uno real de tu base de datos)
+PUT http://localhost:8000/api/productos/68daf02b7a20505b0f7c5860
+Content-Type: application/json
+Cookie: access_token={{token}}
+
+{
+    "precio_euros": 99.99,
+    "precio_rebajado": 49.99
+}

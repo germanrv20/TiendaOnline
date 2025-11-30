@@ -1,0 +1,15 @@
+db.productos.find({ texto_1: "Aceite de oliva 0,4º Hacendado" }).pretty()
+)
+  { $set: { precio_rebajado: 15.50 } }
+  { texto_1: "Aceite de oliva 0,4º Hacendado" },
+db.productos.updateOne(
+db.productos.find({ texto_1: "Aceite de oliva 0,4º Hacendado" }).pretty()
+)
+  { $set: { precio_rebajado: 15.50 } }
+  { texto_1: "Aceite de oliva 0,4º Hacendado" },
+db.productos.updateOne(
+use DAI
+db.productos.find().pretty()
+db.productos.countDocuments()
+show collections
+use DAI

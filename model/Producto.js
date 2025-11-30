@@ -8,7 +8,8 @@ const productoSchema = new mongoose.Schema({
     texto_1: { type: String, trim: true },
     texto_2: { type: String, trim: true },
     texto_precio: { type: String, trim: true },
-    precio_euros: { type: Number }
+    precio_euros: { type: Number },
+    precio_rebajado: { type: Number, default: 0 }
 });
 
 const Producto = mongoose.model('Producto', productoSchema);

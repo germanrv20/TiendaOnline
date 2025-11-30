@@ -1,0 +1,42 @@
+{% extends "base.html" %} {% block title %}Identificarse{% endblock %} {% block content %}
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <h2 class="text-center mb-4">Identificarse</h2>
+        <div class="card shadow-sm">
+            <div class="card-body">
+
+                {% if errors.general %}
+                <div class="alert alert-danger" role="alert">
+                    {{ errors.general }}
+                </div>
+                {% endif %}
+
+                <form action="/usuarios/login" method="POST" novalidate>
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Nombre de usuario</label>
+                        <input type="text" class="form-control {% if errors.username %}is-invalid{% endif %}" id="username" name="username" required> {% if errors.username %}
+                        <div class="invalid-feedback">
+                            {{ errors.username }}
+                        </div>
+                        {% endif %}
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Contraseña</label>
+                        <input type="password" class="form-control {% if errors.password %}is-invalid{% endif %}" id="password" name="password" required> {% if errors.password %}
+                        <div class="invalid-feedback">
+                            {{ errors.password }}
+                        </div>
+                        {% endif %}
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Entrar</button>
+                </form>
+
+                <div class="text-center mt-3">
+                    <small>¿No tienes cuenta? <a href="/usuarios/registro">Regístrate aquí</a></small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

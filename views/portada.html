@@ -1,19 +1,63 @@
-{% extends "base.html" %} {% block title %}Portada{% endblock %} {% block content %}
-<h2 class="text-center mb-4">Productos destacados</h2>
+{% extends "base.html" %} {% block content %}
+<div class="container mt-4">
 
-<div class="row justify-content-center">
-    {% for p in productos %}
-    <div class="col-md-3 col-sm-6 mb-4">
-        <div class="card shadow-sm h-100">
-            <img src="{{ p.url_img }}" class="card-img-top" alt="{{ p.nombre }}">
-            <div class="card-body text-center">
-                <h5 class="card-title">{{ p.nombre }}</h5>
-                <p class="text-muted mb-1">{{ p.categoría }} - {{ p.subcategoria }}</p>
-                <p class="fw-bold">{{ p.precio_euros }} €</p>
-                <a href="#" class="btn btn-success btn-sm">Comprar</a>
+    {% if error == 'auth' %}
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>¡Atención!</strong> Debes estar identificado para añadir productos al carrito.
+        <a href="/usuarios/login" class="alert-link">Identifícate aquí</a>.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+    {% endif %} {% if query %}
+    <h3 class="mb-4">Resultados de búsqueda: "{{ query }}"</h3>
+    {% else %}
+    <h3 class="mb-4">Productos destacados</h3>
+    {% endif %}
+
+    <div class="row">
+        {% for producto in productos %} {% set rebaja = producto.precio_rebajado | default(0) %}
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm position-relative">
+
+                <div class="text-center p-3">
+                    <img src="{{ producto.url_img }}" class="img-fluid" style="max-height: 200px;" alt="{{ producto.texto_1 }}">
+                </div>
+
+                <div class="card-body d-flex flex-column">
+                    <h5 class="card-title">{{ producto.texto_1 }}</h5>
+                    <p class="card-text text-muted mb-3">{{ producto.texto_2 }}</p>
+
+                    <div class="mb-2">
+                        {% if rebaja > 0 %}
+                        <span class="text-danger fw-bold fs-4 precio-display" data-id="{{ producto._id }}">
+            {{ rebaja }} €
+        </span>
+                        <small class="text-muted text-decoration-line-through ms-2">{{ producto.precio_euros }} €</small> {% else %}
+                        <span class="fw-bold fs-4 precio-display" data-id="{{ producto._id }}">
+            {{ producto.precio_euros }} €
+        </span>
+                        <small class="text-muted">/ud.</small> {% endif %}
+                    </div>
+
+
+                    {% if admin %}
+
+                    <input type="number" step="0.01" class="form-control mb-2 precio-input" value="{{ producto.precio_euros }}" data-id="{{ producto._id }}">
+
+                    <button class="btn btn-outline-warning w-100 mb-2 btn-cambiar" type="button" data-id="{{ producto._id }}">
+                            Cambiar Precio
+                        </button>
+
+                    <div class="mensaje-feedback small fw-bold text-center mb-2" data-id="{{ producto._id }}"></div>
+
+                    {% endif %}
+                    <a href="/al_carrito/{{ producto._id }}" class="btn btn-outline-success w-100 mt-auto">
+                        Añadir al carro
+                    </a>
+
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>
 {% endblock %}

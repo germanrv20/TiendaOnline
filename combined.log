@@ -1,0 +1,388 @@
+[2025-11-16 18:31:59] info: Database connected successfully
+[2025-11-16 18:32:18] info: Database connected successfully
+[2025-11-16 18:35:30] info: Database connected successfully
+[2025-11-16 18:35:53] info: Database connected successfully
+[2025-11-16 18:40:35] info: Database connected successfully
+[2025-11-16 18:40:36] info: Database connected successfully
+[2025-11-16 18:40:45] info: Database connected successfully
+[2025-11-16 18:48:08] info: Database connected successfully
+[2025-11-16 18:48:55] info: Database connected successfully
+[2025-11-16 18:48:55] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 18:48:55] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 18:49:22] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:49:26] warn: API: Producto no encontrado (GET): 1234567890abcdef12345678
+[2025-11-16 18:49:34] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:49:41] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:50:09] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:51:50] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:58:19] warn: API: Producto no encontrado (GET): 1234567890abcdef12345678
+[2025-11-16 18:58:30] warn: API: Producto no encontrado (GET): 6719f538fdfbd218f753f044
+[2025-11-16 18:59:30] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-16 18:59:38] info: API: Producto eliminado por GermanAd: Aceite de oliva 0,4º Hacendado
+[2025-11-16 18:59:51] info: API: Producto creado por GermanAd: Nuevo Refresco de Prueba
+[2025-11-16 18:59:59] warn: API: Producto no encontrado (PUT): 68daf02b7a20505b0f7c585f
+[2025-11-16 19:00:42] warn: API: Producto no encontrado (PUT): 68daf02b7a20505b0f7c585f
+[2025-11-16 19:00:43] warn: API: Producto no encontrado (PUT): 68daf02b7a20505b0f7c585f
+[2025-11-16 19:00:44] warn: API: Producto no encontrado (PUT): 68daf02b7a20505b0f7c585f
+[2025-11-16 19:00:45] warn: API: Producto no encontrado (PUT): 68daf02b7a20505b0f7c585f
+[2025-11-16 19:23:23] info: Database connected successfully
+[2025-11-16 19:23:23] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 19:23:23] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 19:24:24] info: Database connected successfully
+[2025-11-16 19:24:24] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 19:24:24] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 19:26:23] info: Database connected successfully
+[2025-11-16 19:26:23] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 19:26:23] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 19:51:02] info: Database connected successfully
+[2025-11-16 19:51:02] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 19:51:02] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:11:20] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:20] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:22] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:23] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:23] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:24] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:24] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:12:44] info: API: Producto creado por GermanAd: Nuevo Refresco de Prueba
+[2025-11-16 20:12:48] warn: API: Producto no encontrado (DELETE): 68daf02b7a20505b0f7c585f
+[2025-11-16 20:12:56] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-16 20:27:35] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-16 20:27:39] warn: API: Producto no encontrado (GET): 1234567890abcdef12345678
+[2025-11-16 20:27:42] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-16 20:27:49] warn: API: Producto no encontrado (DELETE): 68daf02b7a20505b0f7c585f
+[2025-11-16 20:27:58] info: API: Producto creado por GermanAd: Nuevo Refresco de Prueba
+[2025-11-16 20:28:31] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:28:32] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:36:39] info: API: Producto creado por GermanAd: Nuevo Refresco de Prueba
+[2025-11-16 20:36:42] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-16 20:36:45] info: API: Producto creado por GermanAd: Nuevo Refresco de Prueba
+[2025-11-16 20:38:10] warn: API: Producto no encontrado (GET): 1234567890abcdef12345678
+[2025-11-16 20:38:15] warn: API: Producto no encontrado (GET): 68daf02b7a20505b0f7c585f
+[2025-11-16 20:38:17] warn: API: Producto no encontrado (GET): 68daf02b7a20505b0f7c585f
+[2025-11-16 20:38:17] warn: API: Producto no encontrado (GET): 68daf02b7a20505b0f7c585f
+[2025-11-16 20:46:58] info: Database connected successfully
+[2025-11-16 20:46:58] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:46:58] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:47:21] info: Database connected successfully
+[2025-11-16 20:47:21] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:47:21] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:47:36] info: Database connected successfully
+[2025-11-16 20:47:36] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:47:36] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:47:50] info: Database connected successfully
+[2025-11-16 20:47:50] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:47:50] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:47:57] info: Database connected successfully
+[2025-11-16 20:47:57] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:47:57] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:49:11] info: Database connected successfully
+[2025-11-16 20:49:11] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:49:11] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:49:15] info: Usuario deslogueado: GermanAd
+[2025-11-16 20:49:33] info: Usuario logueado: German
+[2025-11-16 20:50:03] info: Database connected successfully
+[2025-11-16 20:50:03] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:50:03] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:50:05] info: Database connected successfully
+[2025-11-16 20:50:05] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:50:05] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:50:06] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:08] info: Usuario deslogueado: German
+[2025-11-16 20:50:08] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:16] info: Usuario logueado: German
+[2025-11-16 20:50:16] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:21] info: Usuario German añadió al carrito: Agua mineral con gas grande Aguadoy
+[2025-11-16 20:50:21] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:26] info: Usuario German añadió al carrito: Sal rosa del Himalaya Hacendado
+[2025-11-16 20:50:26] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:27] info: Usuario German añadió al carrito: Agua mineral con gas grande Aguadoy
+[2025-11-16 20:50:27] info: Renderizando 15 productos para la portada
+[2025-11-16 20:50:34] info: Renderizando 20 productos para la portada
+[2025-11-16 20:51:39] info: Database connected successfully
+[2025-11-16 20:51:39] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:51:39] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:51:42] info: busqueda de  agua productos
+[2025-11-16 20:51:42] info: Renderizando 20 productos para la portada
+[2025-11-16 20:51:53] info: Database connected successfully
+[2025-11-16 20:51:53] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:51:53] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:51:54] info: Usuario German añadió al carrito: Agua mineral grande Font Natura
+[2025-11-16 20:51:54] info: busqueda de  agua en la portada
+[2025-11-16 20:51:54] info: Renderizando 20 productos para la portada
+[2025-11-16 20:51:55] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:55] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:56] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:57] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:57] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:57] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:58] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:58] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:59] info: Renderizando 15 productos para la portada
+[2025-11-16 20:51:59] info: Renderizando 15 productos para la portada
+[2025-11-16 20:52:03] info: Usuario German añadió al carrito: Nuevo Refresco de Prueba
+[2025-11-16 20:52:03] info: Renderizando 15 productos para la portada
+[2025-11-16 20:58:33] info: Database connected successfully
+[2025-11-16 20:58:33] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:58:33] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:59:23] info: Database connected successfully
+[2025-11-16 20:59:23] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:59:23] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 20:59:31] info: Database connected successfully
+[2025-11-16 20:59:31] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 20:59:31] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:01:08] info: Database connected successfully
+[2025-11-16 21:01:08] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:01:08] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:01:59] info: Database connected successfully
+[2025-11-16 21:01:59] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:01:59] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:03:01] info: Database connected successfully
+[2025-11-16 21:03:01] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:03:01] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:03:33] info: Database connected successfully
+[2025-11-16 21:03:33] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:03:33] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:04:06] info: Database connected successfully
+[2025-11-16 21:04:06] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:04:06] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:04:33] info: Database connected successfully
+[2025-11-16 21:04:33] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:04:33] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:06:15] info: Database connected successfully
+[2025-11-16 21:06:16] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:06:16] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:06:52] info: Database connected successfully
+[2025-11-16 21:06:52] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:06:52] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:07:03] info: Database connected successfully
+[2025-11-16 21:07:03] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:07:03] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-16 21:07:04] info: Database connected successfully
+[2025-11-16 21:07:04] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-16 21:07:04] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-20 09:15:58] info: Database connected successfully
+[2025-11-20 09:15:58] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-20 09:15:58] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-20 09:23:13] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-20 09:23:15] warn: API: Producto no encontrado (DELETE): 68daf02b7a20505b0f7c585f
+[2025-11-20 10:50:15] info: busqueda de  agua en la portada
+[2025-11-20 10:50:15] info: Renderizando 20 productos para la portada
+[2025-11-20 10:50:17] info: Usuario deslogueado: German
+[2025-11-20 10:50:17] info: Renderizando 15 productos para la portada
+[2025-11-20 10:50:39] info: Renderizando 15 productos para la portada
+[2025-11-20 10:50:52] info: Renderizando 15 productos para la portada
+[2025-11-20 10:53:57] info: Usuario logueado: GermanAd
+[2025-11-20 10:53:57] info: Renderizando 15 productos para la portada
+[2025-11-20 10:54:11] info: Usuario GermanAd añadió al carrito: Limón exprimido Hacendado
+[2025-11-20 10:54:11] info: Renderizando 15 productos para la portada
+[2025-11-20 10:54:12] info: Usuario GermanAd añadió al carrito: Aceite de oliva virgen extra Hacendado
+[2025-11-20 10:54:12] info: Renderizando 15 productos para la portada
+[2025-11-20 10:54:14] info: Usuario GermanAd añadió al carrito: Agua mineral grande Lanjarón
+[2025-11-20 10:54:14] info: Renderizando 15 productos para la portada
+[2025-11-20 10:54:20] info: Usuario GermanAd añadió al carrito: Agua mineral pequeña Fuente Dehesa
+[2025-11-20 10:54:20] info: Renderizando 15 productos para la portada
+[2025-11-20 10:54:22] info: Usuario deslogueado: GermanAd
+[2025-11-20 10:54:22] info: Renderizando 15 productos para la portada
+[2025-11-20 10:55:50] warn: API: Producto no encontrado (GET): 1234567890abcdef12345678
+[2025-11-20 10:56:01] warn: Intento de acceso no autorizado a API (Admin) por usuario: invitado
+[2025-11-20 10:56:39] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-20 11:20:26] info: Database connected successfully
+[2025-11-20 11:20:26] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-20 11:20:26] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-20 11:20:29] info: Renderizando 15 productos para la portada
+[2025-11-20 11:20:33] info: Usuario logueado: GermanAd
+[2025-11-20 11:20:33] info: Renderizando 15 productos para la portada
+[2025-11-20 11:20:40] info: Usuario deslogueado: GermanAd
+[2025-11-20 11:20:40] info: Renderizando 15 productos para la portada
+[2025-11-20 11:20:44] info: Usuario logueado: GermanAd
+[2025-11-20 11:20:44] info: Renderizando 15 productos para la portada
+[2025-11-20 11:21:04] info: Usuario GermanAd añadió al carrito: Sal de frutas sabor limón Hacendado
+[2025-11-20 11:21:04] info: Renderizando 15 productos para la portada
+[2025-11-20 11:21:13] info: Usuario deslogueado: GermanAd
+[2025-11-20 11:21:13] info: Renderizando 15 productos para la portada
+[2025-11-20 11:22:31] info: Usuario logueado: GermanAd
+[2025-11-20 11:22:31] info: Renderizando 15 productos para la portada
+[2025-11-20 11:25:12] info: Renderizando 15 productos para la portada
+[2025-11-20 11:25:16] info: Usuario deslogueado: GermanAd
+[2025-11-20 11:25:16] info: Renderizando 15 productos para la portada
+[2025-11-20 11:25:20] info: Usuario logueado: GermanAd
+[2025-11-20 11:25:20] info: Renderizando 15 productos para la portada
+[2025-11-20 11:32:40] info: Renderizando 15 productos para la portada
+[2025-11-20 11:32:46] info: Renderizando 15 productos para la portada
+[2025-11-20 11:32:48] info: Usuario deslogueado: GermanAd
+[2025-11-20 11:32:48] info: Renderizando 15 productos para la portada
+[2025-11-20 11:32:52] info: Usuario logueado: GermanAd
+[2025-11-20 11:32:52] info: Renderizando 15 productos para la portada
+[2025-11-20 11:32:55] info: API: Precio de producto Arroz integral largo Hacendado modificado por GermanAd
+[2025-11-20 11:33:00] info: API: Precio de producto Arroz integral largo Hacendado modificado por GermanAd
+[2025-11-20 11:33:04] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-20 11:33:07] info: Renderizando 15 productos para la portada
+[2025-11-20 11:33:17] info: busqueda de  aceite en la portada
+[2025-11-20 11:33:17] info: Renderizando 20 productos para la portada
+[2025-11-20 11:33:24] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:33:28] info: busqueda de  aceite en la portada
+[2025-11-20 11:33:28] info: Renderizando 20 productos para la portada
+[2025-11-20 11:35:46] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:37:50] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:37:51] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:37:51] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:43:05] info: busqueda de  aceite en la portada
+[2025-11-20 11:43:05] info: Renderizando 20 productos para la portada
+[2025-11-20 11:43:14] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:43:18] info: busqueda de  aceite en la portada
+[2025-11-20 11:43:18] info: Renderizando 20 productos para la portada
+[2025-11-20 11:43:27] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:43:29] info: busqueda de  aceite en la portada
+[2025-11-20 11:43:29] info: Renderizando 20 productos para la portada
+[2025-11-20 11:43:44] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:43:46] info: busqueda de  aceite en la portada
+[2025-11-20 11:43:46] info: Renderizando 20 productos para la portada
+[2025-11-20 11:44:13] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:44:54] info: busqueda de  aceite en la portada
+[2025-11-20 11:44:54] info: Renderizando 20 productos para la portada
+[2025-11-20 11:44:57] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:44:59] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:44:59] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:45:00] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:45:02] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:45:06] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:49:06] info: busqueda de  aceite en la portada
+[2025-11-20 11:49:06] info: Renderizando 20 productos para la portada
+[2025-11-20 11:49:10] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:55:41] info: Database connected successfully
+[2025-11-20 11:55:41] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-20 11:55:41] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-20 11:55:43] info: busqueda de  aceite en la portada
+[2025-11-20 11:55:43] info: Renderizando 20 productos para la portada
+[2025-11-20 11:55:47] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:55:48] info: Usuario deslogueado: GermanAd
+[2025-11-20 11:55:48] info: Renderizando 15 productos para la portada
+[2025-11-20 11:55:52] info: Usuario logueado: GermanAd
+[2025-11-20 11:55:52] info: Renderizando 15 productos para la portada
+[2025-11-20 11:55:55] info: API: Precio de producto Agua mineral pequeña Fuente Dehesa modificado por GermanAd
+[2025-11-20 11:55:59] info: API: Precio de producto Agua mineral pequeña Fuente Dehesa modificado por GermanAd
+[2025-11-20 11:56:05] info: Renderizando 15 productos para la portada
+[2025-11-20 11:56:28] info: busqueda de  aceite en la portada
+[2025-11-20 11:56:28] info: Renderizando 20 productos para la portada
+[2025-11-20 11:56:31] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:32] info: busqueda de  aceite en la portada
+[2025-11-20 11:59:32] info: Renderizando 20 productos para la portada
+[2025-11-20 11:59:35] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:36] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:36] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:36] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:36] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:37] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:37] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:41] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:41] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 11:59:42] info: API: Precio de producto Aceite de oliva virgen extra Hacendado modificado por GermanAd
+[2025-11-20 12:02:23] info: busqueda de  aceite en la portada
+[2025-11-20 12:02:23] info: Renderizando 20 productos para la portada
+[2025-11-20 12:02:46] info: busqueda de  aceite en la portada
+[2025-11-20 12:02:46] info: Renderizando 20 productos para la portada
+[2025-11-20 12:02:50] info: Usuario logueado: GermanAd
+[2025-11-20 12:02:50] info: Renderizando 15 productos para la portada
+[2025-11-20 12:02:53] info: API: Precio de producto Aceitunas verdes Picadedos sin hueso Hacendado aliñadas modificado por GermanAd
+[2025-11-20 12:02:54] info: API: Precio de producto Aceitunas verdes Picadedos sin hueso Hacendado aliñadas modificado por GermanAd
+[2025-11-20 12:02:54] info: API: Precio de producto Aceitunas verdes Picadedos sin hueso Hacendado aliñadas modificado por GermanAd
+[2025-11-20 12:02:54] info: API: Precio de producto Aceitunas verdes Picadedos sin hueso Hacendado aliñadas modificado por GermanAd
+[2025-11-20 12:02:54] info: API: Precio de producto Aceitunas verdes Picadedos sin hueso Hacendado aliñadas modificado por GermanAd
+[2025-11-20 12:02:56] info: Usuario GermanAd añadió al carrito: Aceitunas verdes Picadedos sin hueso Hacendado aliñadas
+[2025-11-20 12:02:56] info: Renderizando 15 productos para la portada
+[2025-11-20 12:03:03] info: API: Precio de producto Agua mineral pequeña Neval tapón infantil modificado por GermanAd
+[2025-11-20 12:03:06] info: Renderizando 15 productos para la portada
+[2025-11-20 12:05:20] info: busqueda de  aceite en la portada
+[2025-11-20 12:05:20] info: Renderizando 20 productos para la portada
+[2025-11-20 12:05:22] info: Usuario deslogueado: GermanAd
+[2025-11-20 12:05:22] info: Renderizando 15 productos para la portada
+[2025-11-20 12:05:26] info: Usuario logueado: GermanAd
+[2025-11-20 12:05:26] info: Renderizando 15 productos para la portada
+[2025-11-20 12:05:28] info: API: Precio de producto Aceitunas verdes Gazpacha Hacendado partidas modificado por GermanAd
+[2025-11-20 12:05:30] info: API: Precio de producto Aceitunas verdes Gazpacha Hacendado partidas modificado por GermanAd
+[2025-11-20 12:05:35] info: API: Precio de producto Aceitunas verdes Gazpacha Hacendado partidas modificado por GermanAd
+[2025-11-20 12:12:32] info: Renderizando 15 productos para la portada
+[2025-11-20 12:12:36] info: API: Precio de producto Cous cous mediano Bia modificado por GermanAd
+[2025-11-20 12:16:04] info: Renderizando 15 productos para la portada
+[2025-11-20 12:16:09] info: API: Precio de producto Mix de pepinillos y cebollitas Hacendado modificado por GermanAd
+[2025-11-20 12:16:58] info: Renderizando 15 productos para la portada
+[2025-11-20 12:17:00] info: API: Precio de producto Aceitunas negras sin hueso Hacendado modificado por GermanAd
+[2025-11-20 12:19:30] info: API: Precio de producto Reducción bálsamica de vinagre Pedro Ximénez Hacendado modificado por GermanAd
+[2025-11-20 12:19:36] info: API: Precio de producto Agua mineral con gas grande Aguadoy modificado por GermanAd
+[2025-11-29 21:42:50] info: Database connected successfully
+[2025-11-29 21:42:50] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-29 21:42:50] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-29 21:43:07] info: Renderizando 15 productos para la portada
+[2025-11-29 21:43:26] info: Renderizando 15 productos para la portada
+[2025-11-29 21:48:42] info: API: Precio de producto Reducción bálsamica de vinagre Pedro Ximénez Hacendado modificado por GermanAd
+[2025-11-29 21:48:46] info: API: Precio de producto Arroz integral largo Hacendado modificado por GermanAd
+[2025-11-29 21:48:49] info: API: Precio de producto Bicarbonato de sódio Hacendado modificado por GermanAd
+[2025-11-29 21:48:55] info: busqueda de  aceite en la portada
+[2025-11-29 21:48:55] info: Renderizando 20 productos para la portada
+[2025-11-29 21:49:01] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-29 21:49:03] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-29 21:49:05] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-29 21:49:06] info: API: Precio de producto Aceite de oliva 0,4º Hacendado modificado por GermanAd
+[2025-11-29 21:49:10] info: Usuario GermanAd añadió al carrito: Aceite de oliva 0,4º Hacendado
+[2025-11-29 21:49:10] info: busqueda de  aceite en la portada
+[2025-11-29 21:49:10] info: Renderizando 20 productos para la portada
+[2025-11-29 21:49:11] info: Usuario GermanAd añadió al carrito: Aceite de oliva virgen extra Hacendado
+[2025-11-29 21:49:11] info: busqueda de  aceite en la portada
+[2025-11-29 21:49:11] info: Renderizando 20 productos para la portada
+[2025-11-29 21:49:11] info: Usuario GermanAd añadió al carrito: Aceite de oliva virgen extra Hacendado
+[2025-11-29 21:49:11] info: busqueda de  aceite en la portada
+[2025-11-29 21:49:11] info: Renderizando 20 productos para la portada
+[2025-11-29 21:50:49] info: busqueda de  aceite en la portada
+[2025-11-29 21:50:49] info: Renderizando 20 productos para la portada
+[2025-11-29 21:52:35] info: busqueda de  aceite en la portada
+[2025-11-29 21:52:35] info: Renderizando 20 productos para la portada
+[2025-11-29 21:52:37] info: Renderizando 15 productos para la portada
+[2025-11-29 21:52:56] info: Renderizando 15 productos para la portada
+[2025-11-29 21:53:31] info: Renderizando 15 productos para la portada
+[2025-11-29 21:53:47] info: Renderizando 15 productos para la portada
+[2025-11-29 21:53:55] info: Renderizando 15 productos para la portada
+[2025-11-29 21:53:57] info: Renderizando 15 productos para la portada
+[2025-11-29 21:54:01] info: Renderizando 15 productos para la portada
+[2025-11-29 21:55:57] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:17] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:18] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:21] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:22] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:22] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:23] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:23] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:23] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:33] info: Usuario deslogueado: GermanAd
+[2025-11-29 21:59:33] info: Renderizando 15 productos para la portada
+[2025-11-29 21:59:49] info: Renderizando 15 productos para la portada
+[2025-11-29 22:00:02] info: Usuario logueado: GermanAd
+[2025-11-29 22:00:02] info: Renderizando 15 productos para la portada
+[2025-11-29 22:00:16] info: Renderizando 15 productos para la portada
+[2025-11-29 22:00:34] info: Renderizando 15 productos para la portada
+[2025-11-29 22:02:13] info: Renderizando 15 productos para la portada
+[2025-11-29 22:02:19] info: Usuario GermanAd añadió al carrito: Aceite de oliva virgen extra Hacendado
+[2025-11-29 22:10:33] info: Renderizando 15 productos para la portada
+[2025-11-29 22:10:38] info: Renderizando 15 productos para la portada
+[2025-11-29 22:10:40] info: Renderizando 15 productos para la portada
+[2025-11-29 22:10:51] info: Usuario logueado: GermanAd
+[2025-11-29 22:10:51] info: Renderizando 15 productos para la portada
+[2025-11-29 22:11:19] info: Renderizando 15 productos para la portada
+[2025-11-29 22:17:33] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:38] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:41] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:44] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:46] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:48] info: Renderizando 15 productos para la portada
+[2025-11-30 02:29:49] info: Renderizando 15 productos para la portada
+[2025-11-30 17:03:36] info: Renderizando 15 productos para la portada
+[2025-11-30 17:03:44] info: Renderizando 15 productos para la portada
+[2025-11-30 17:03:47] info: Renderizando 15 productos para la portada
+[2025-11-30 17:03:50] info: API: Precio de producto Nuevo Refresco de Prueba modificado por GermanAd
+[2025-11-30 17:03:52] info: API: Precio de producto Agua mineral pequeña Font Natura modificado por GermanAd
+[2025-11-30 17:04:28] info: Database connected successfully
+[2025-11-30 17:04:28] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-30 17:04:28] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
+[2025-11-30 17:04:53] info: Database connected successfully
+[2025-11-30 17:04:53] info: Servidor ejecutándose en http://localhost:8000
+[2025-11-30 17:04:53] info: Documentación de API (Swagger) disponible en http://localhost:8000/api-docs
